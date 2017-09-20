@@ -15,6 +15,8 @@ describe('AppComponent', () => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent,
+        FooterComponent,
+        HeaderComponent,
         RouterOutletStubComponent
       ],
     }).compileComponents();
